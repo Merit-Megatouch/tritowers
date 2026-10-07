@@ -1,0 +1,98 @@
+# Symbols no library, runtime or megatouch-host provides (2026-10-07)
+# megatouch-host loads the game with RTLD_NOW, so each of these must be defined
+# (usually in src/host/loader_services.cpp) before the game will start.
+# symbol | needed by
+CardG | tritowers.so
+DLLReady | tritowers.so
+ISRDone | tritowers.so
+LinkEasyMode | tritowers.so
+LinkFanTimeSetting | tritowers.so
+LinkShowDeckSetting | tritowers.so
+LocalGameOverFlag | tritowers.so
+NetGlob | tritowers.so
+RankFunc | tritowers.so
+Card_PollLinks() | tritowers.so
+DisplayDefeated(int, int) | tritowers.so
+GetHelpFileName(char (&) [255], char const*, Locale::Languages, char const*) | tritowers.so
+ScreenIsTouched() | tritowers.so
+Card_ActiveDelay(int) | tritowers.so
+Card_ProcessInfo() | tritowers.so
+Card_LinkWaitForAll(unsigned long) | tritowers.so
+ExplodeTRoundGraphics() | tritowers.so
+MeritthonDisplayRound(int, int, int, unsigned long) | tritowers.so
+Card_ParseGameOverFlag() | tritowers.so
+t_i_l() | tritowers.so
+GetMyId() | tritowers.so
+u_m_m_s(char const*, char*, char*, unsigned int) | tritowers.so
+Delay_PE(unsigned long) | tritowers.so
+PlayWave(char*, unsigned short, int, int, int, bool) | tritowers.so
+QueFlush(bool) | tritowers.so
+GetMaster() | tritowers.so
+NetGlobals::GetLeaderScore() | tritowers.so
+NetGlobals::GetRank(unsigned char) | tritowers.so
+TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | tritowers.so
+TextSystem::LoadTranslations(xml_gameinfo::GameIds) | tritowers.so
+TextSystem::SetTextDescription(TextDesc const&) | tritowers.so
+VideoClass::ShowPCX(char const*, short, short, unsigned char) | tritowers.so
+db_gamedata::gamedata_record::gamedata_record(db_gamedata::gamedata_record const&) | tritowers.so
+db_gamedata::gamedata_record::gamedata_record() | tritowers.so
+db_gamedata::gamedata_record::~gamedata_record() | tritowers.so
+system_info::Get_Motherboard_Type() | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::AdjustTime(int, long) | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::copy(abstract_record const*) | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::GameSettingsHighRun_record() | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::~GameSettingsHighRun_record() | tritowers.so
+abstract_xml_record::AdjustTimeFields(int, long) | tritowers.so
+abstract_xml_record::AddChild(abstract_xml_record*, char const*, unsigned int) | tritowers.so
+abstract_xml_record::NewChild(char*) | tritowers.so
+ads::tracking::record_ad(db_ad_data::Type, xml_gameinfo::GameIds, char const*) | tritowers.so
+Books::Credits(xml_gameinfo::GameIds, enums::Span) | tritowers.so
+Books::Instance() | tritowers.so
+USBIO::USBConfirmKeyID(unsigned char) | tritowers.so
+USBIO::FoundUSB() | tritowers.so
+USBIO::Instance() | tritowers.so
+Bitmap::ConvertSmack(unsigned char) | tritowers.so
+Bitmap::CopyFromScreen(int, int, bool) | tritowers.so
+Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | tritowers.so
+Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | tritowers.so
+Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | tritowers.so
+Bitmap::Clear() | tritowers.so
+Bitmap::Scale(int, int, unsigned char) | tritowers.so
+Bitmap::GreyBmp() | tritowers.so
+Bitmap::LoadJPEG(char*, int, int, unsigned char) | tritowers.so
+Bitmap::LoadSmack(char*, unsigned char, unsigned char) | tritowers.so
+Colour::black | tritowers.so
+Colour::white | tritowers.so
+NBitmap::WrapAllegroBitmap(BITMAP*) | tritowers.so
+NBitmap::~NBitmap() | tritowers.so
+Settings::Init() | tritowers.so
+Settings::Load() | tritowers.so
+Settings::Cleanup() | tritowers.so
+Settings::Restore(abstract_xml_record const*) | tritowers.so
+Settings::Settings(char const*, unsigned int) | tritowers.so
+Settings::~Settings() | tritowers.so
+TextDesc::SetFontName(char const*) | tritowers.so
+TextUtils::ConvertToMarkup(char const*) | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::cTag() const | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::eTag() const | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::clone() const | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::equal(abstract_record const*) const | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::Metadata() const | tritowers.so
+xml_gamerandom::GameSettingsHighRun_record::not_equal(abstract_record const*) const | tritowers.so
+abstract_xml_record::ChildCount() const | tritowers.so
+abstract_xml_record::GetChildren() const | tritowers.so
+abstract_xml_record::ChildName(int) const | tritowers.so
+Settings::Key(unsigned int, bool) const | tritowers.so
+typeinfo for Settings | tritowers.so
+typeinfo for xml_gamerandom::GameSettingsHighRun_record | tritowers.so
+al_findclose | tritowers.so
+al_findfirst | tritowers.so
+al_findnext | tritowers.so
+clear_bitmap | tritowers.so
+create_sub_bitmap | tritowers.so
+destroy_bitmap | tritowers.so
+file_time | tritowers.so
+get_palette | tritowers.so
+gfx_driver | tritowers.so
+save_bitmap | tritowers.so
+screen | tritowers.so
