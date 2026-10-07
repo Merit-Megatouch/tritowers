@@ -5,9 +5,9 @@
 | GameId | G_TRITOWERS = 6 |
 | Code | /usr/local/lib/tritowers.so |
 | Engine family | legacy |
-| Assets | /usr/local/ion_only/games/tritowers |
+| Assets | /usr/local/gamedata/gamegraphics/tritowers_new |
 | Window size | 640x480 — from declared legacy 640x480 |
 | Largest PNG | none |
-| Engine libraries beyond the shared SDK | libmerit_legacy.so  |
+| Engine libraries beyond the shared SDK | libads.so liblogging.so libmerit_legacy.so libmerit_threads.so libsettings.so libsystem_info.so  |
 | Libraries not found in the cabinet | 0 (missing-libs.txt) |
-| Unresolved symbols | 94 unresolved symbol(s) (unresolved.txt) |
+| Unresolved symbols | 28 unresolved symbol(s) (unresolved.txt) |
