@@ -5,12 +5,8 @@
 ExplodeTRoundGraphics() | tritowers.so
 t_i_l() | tritowers.so
 TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | tritowers.so
-TextSystem::SetTextDescription(TextDesc const&) | tritowers.so
 USBIO::USBConfirmKeyID(unsigned char) | tritowers.so
 USBIO::FoundUSB() | tritowers.so
 USBIO::Instance() | tritowers.so
-Colour::black | tritowers.so
-Colour::white | tritowers.so
 NBitmap::WrapAllegroBitmap(BITMAP*) | tritowers.so
 NBitmap::~NBitmap() | tritowers.so
-TextDesc::SetFontName(char const*) | tritowers.so
